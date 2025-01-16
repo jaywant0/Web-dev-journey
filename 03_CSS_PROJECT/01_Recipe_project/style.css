@@ -1,0 +1,124 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200vh;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.navContainer{
+    width: 100vw;
+    /* background-color: beige; */
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  
+    min-height: 50px;
+}
+
+#navlist{
+    width: 100%;
+    padding: 15px;
+    /* margin-right: 25px;
+    margin-left: 25px; */
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#navlogo{
+    font-size: 2.5rem;
+    color: black;         
+    font-weight: 50px;
+}
+nav{
+    width: 100%;
+    /* padding: 2rem; */
+}
+a{
+    text-decoration: none ;
+}
+#navitems{
+    display: flex;
+    gap: 25px;
+    /* color: black; */
+}
+
+
+.footerbox{
+    /* background-color: azure; */
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    /* color: black; */
+    text-align: center;
+
+}
+.footerbox p{
+    color: black;
+    font-size: 2rem;
+}
+
+.contentbox{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 2px 2px 20px red;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightbox{
+    position: relative;
+    overflow: hidden;
+}
+.rightbox.overplay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #D9AFD9;
+    transition: all 0.3s linear 0s;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.rightbox img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s; 
+}
+
+.rightbox img:hover{
+    transform: scale(1.2);
+    background-color: #D9AFD9;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column  ;
+    gap: 20px;
+}
+.incbox{
+    font-size: 1.5rem;
+}
+.recbox{
+    font-size: 1.5rem;
+}

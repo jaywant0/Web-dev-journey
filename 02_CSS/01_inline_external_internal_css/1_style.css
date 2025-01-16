@@ -1,0 +1,25 @@
+/* external css */
+h2{
+    background-color: blue;
+}
+
+/* element selectors */
+h3{
+    background-color: green;
+}
+
+/* id selectors */
+#j1{
+    background-color: brown;
+}
+
+ /* class selectors */
+.abc{
+    background-color: blueviolet;
+}
+
+/* group selectors */
+h4,h5{
+    background-color: chocolate;
+    width: 400px;
+}
