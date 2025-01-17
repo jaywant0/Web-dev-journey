@@ -1,11 +1,11 @@
 var a = 67
 var a = 85
-var a = "jay"
+// var a = "jay"
 console.log(a)
 
 // let b = 67
-// let b = "jay"
-// console.log(b)  // b has already declare
+let b = "jay"
+console.log(b)  // b has already declare
 
 var c = 67;
 c = "jaywant"
